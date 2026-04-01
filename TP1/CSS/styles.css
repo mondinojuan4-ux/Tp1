@@ -1,0 +1,173 @@
+body{
+    margin:0;
+    background-color:#b7dbdf; 
+    
+}
+
+.Encabezado{
+    background-color:#3d5a80; 
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0px 30px;
+}
+.Encabezado p{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+.Encabezado a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    padding:8px 35px;
+    border-radius:10px;
+}
+
+.Encabezado a:hover{
+    background-color:#3090c8; 
+    color:#000000;
+}
+
+.descripcion{
+    margin-top:60px;     
+    font-size:22px;      
+    text-align:center;
+}
+
+.presentacion{
+    text-align:center;
+    margin-top:30px;
+}
+
+.presentacion img{
+    width:300px;
+    border-radius:50%; 
+}
+
+.presentacion h1{
+    font-size:40px;
+}
+
+.presentacion h2{
+    font-family: 'Dancing Script', cursive;
+    font-size:25px;
+    color:#444;
+}
+/*Fin del inicio*/
+
+.Exp{
+    margin-top:0px;
+    padding: 0px 10px;
+}
+
+.Exp h1{
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+   font-size:45px;
+}
+.Exp h2{
+    font-family: 'Dancing Script', cursive;
+}
+.Exp h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.Exp p{
+    font-size:20px;
+}
+.Exp ul{
+    font-size:18px;
+}
+
+
+.img{
+    width:300px;
+    border-radius:10px;
+}
+
+.exp-contenido{
+    display:flex;
+    align-items:flex-start;
+    gap:50px;
+    margin-top:0px;
+    
+}
+/*Fin de Experiencias*/
+
+.titulo h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+
+.conte{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:30px;
+}
+
+.cuad{
+    font-size: 20px;
+    background-color:rgb(255, 255, 255);
+    padding:25px;
+    width:300px;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgb(0, 119, 255);
+    text-align:left;
+}
+
+.cuad h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.cuad ul{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left:20px;
+}
+
+/*Fin de Habilidades*/
+.proyectos h1{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    font-size: 70px;
+    margin-top:20px;
+}
+
+.cont-p{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap; 
+    gap:30px;
+    margin-top:30px;
+}
+
+
+.cuad-p{
+    background-color:white;
+    width:280px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgb(0, 119, 255);
+   
+}
+
+.cuad-p h2{
+    font-family: 'Dancing Script', cursive;
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+.cuad-p p{
+    font-size:25px;
+    color:#444;
+}
+
+
