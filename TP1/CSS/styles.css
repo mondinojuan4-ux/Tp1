@@ -180,5 +180,88 @@ body{
     font-size:25px;
     color:#444;
 }
+/*Fin de Proyectos*/
 
+.contacto{
+    margin-top:50px;
+}
+
+.contenedor-contacto{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+
+.card-contacto{
+    background-color:white;
+    padding:30px;
+    width:300px;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    box-shadow:0px 4px 10px rgb(0, 119, 255);
+}
+
+.card-contacto h2{
+    text-align:center;
+}
+
+.card-contacto input{
+    width:100%;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+.card-contacto textarea{
+    width:100%;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+.card-contacto textarea{
+    height:100px;
+    resize:none;
+}
+
+.card-contacto button{
+    padding:10px;
+    border:none;
+    background-color:#3d5a80;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.card-contacto button:hover{
+    background-color:#3090c8;
+}
+
+.card-contacto a{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    text-decoration:none;
+    color:#3d5a80;
+    font-weight:bold;
+    font-size:18px;
+    padding:8px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.card-contacto a:hover{
+    background-color:#e0e0e0;
+}
+
+.card-contacto h2{
+   font-family: 'Dancing Script', cursive;
+   font-size:35px;
+}
+
+.card-contacto i{
+    font-size:20px;
+}
 
